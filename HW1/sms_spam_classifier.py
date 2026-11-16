@@ -42,7 +42,6 @@ total_msg = len(msg_list) # 5,574
 total_spam = len(spam_list)
 total_ham = len(ham_list)
 
-
 def prob_spam(): # P(spam)
     return total_spam / total_msg
 
